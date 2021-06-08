@@ -1,6 +1,6 @@
 <?php
 
-namespace Makeable\LaravelFactory\Tests\Stubs;
+namespace Jaulz\LaravelFactory\Tests\Stubs;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;

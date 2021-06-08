@@ -1,6 +1,6 @@
 <?php
 
-namespace Makeable\LaravelFactory;
+namespace Jaulz\LaravelFactory;
 
 use Closure;
 use Faker\Generator as Faker;
@@ -9,9 +9,9 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Traits\Macroable;
 use InvalidArgumentException;
-use Makeable\LaravelFactory\Concerns\BuildsRelationships;
-use Makeable\LaravelFactory\Concerns\NormalizesAttributes;
-use Makeable\LaravelFactory\Concerns\PrototypesModels;
+use Jaulz\LaravelFactory\Concerns\BuildsRelationships;
+use Jaulz\LaravelFactory\Concerns\NormalizesAttributes;
+use Jaulz\LaravelFactory\Concerns\PrototypesModels;
 
 class FactoryBuilder
 {

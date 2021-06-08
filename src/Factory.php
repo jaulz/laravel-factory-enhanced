@@ -1,6 +1,6 @@
 <?php
 
-namespace Makeable\LaravelFactory;
+namespace Jaulz\LaravelFactory;
 
 use ArrayAccess;
 use Faker\Generator as Faker;

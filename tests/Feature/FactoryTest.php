@@ -1,16 +1,16 @@
 <?php
 
-namespace Makeable\LaravelFactory\Tests\Feature;
+namespace Jaulz\LaravelFactory\Tests\Feature;
 
 use Faker\Generator;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Collection;
-use Makeable\LaravelFactory\StateManager;
-use Makeable\LaravelFactory\Tests\Stubs\Company;
-use Makeable\LaravelFactory\Tests\Stubs\Customer;
-use Makeable\LaravelFactory\Tests\Stubs\Department;
-use Makeable\LaravelFactory\Tests\Stubs\User;
-use Makeable\LaravelFactory\Tests\TestCase;
+use Jaulz\LaravelFactory\StateManager;
+use Jaulz\LaravelFactory\Tests\Stubs\Company;
+use Jaulz\LaravelFactory\Tests\Stubs\Customer;
+use Jaulz\LaravelFactory\Tests\Stubs\Department;
+use Jaulz\LaravelFactory\Tests\Stubs\User;
+use Jaulz\LaravelFactory\Tests\TestCase;
 
 class FactoryTest extends TestCase
 {

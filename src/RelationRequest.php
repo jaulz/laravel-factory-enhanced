@@ -1,6 +1,6 @@
 <?php
 
-namespace Makeable\LaravelFactory;
+namespace Jaulz\LaravelFactory;
 
 use BadMethodCallException;
 use Closure;
@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Makeable\LaravelFactory\Concerns\PrototypesModels;
+use Jaulz\LaravelFactory\Concerns\PrototypesModels;
 
 class RelationRequest
 {

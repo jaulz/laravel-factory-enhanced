@@ -1,14 +1,14 @@
 <?php
 
-namespace Makeable\LaravelFactory\Tests;
+namespace Jaulz\LaravelFactory\Tests;
 
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Illuminate\Support\Facades\Hash;
-use Makeable\LaravelFactory\Factory;
-use Makeable\LaravelFactory\FactoryBuilder;
-use Makeable\LaravelFactory\FactoryServiceProvider;
-use Makeable\LaravelFactory\StateManager;
-use Makeable\LaravelFactory\Tests\Stubs\User;
+use Jaulz\LaravelFactory\Factory;
+use Jaulz\LaravelFactory\FactoryBuilder;
+use Jaulz\LaravelFactory\FactoryServiceProvider;
+use Jaulz\LaravelFactory\StateManager;
+use Jaulz\LaravelFactory\Tests\Stubs\User;
 
 class TestCase extends BaseTestCase
 {

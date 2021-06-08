@@ -1,14 +1,14 @@
 <?php
 
-namespace Makeable\LaravelFactory\Tests\Feature;
+namespace Jaulz\LaravelFactory\Tests\Feature;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Makeable\LaravelFactory\FactoryBuilder;
-use Makeable\LaravelFactory\Tests\Stubs\Company;
-use Makeable\LaravelFactory\Tests\Stubs\Department;
-use Makeable\LaravelFactory\Tests\Stubs\Image;
-use Makeable\LaravelFactory\Tests\Stubs\User;
-use Makeable\LaravelFactory\Tests\TestCase;
+use Jaulz\LaravelFactory\FactoryBuilder;
+use Jaulz\LaravelFactory\Tests\Stubs\Company;
+use Jaulz\LaravelFactory\Tests\Stubs\Department;
+use Jaulz\LaravelFactory\Tests\Stubs\Image;
+use Jaulz\LaravelFactory\Tests\Stubs\User;
+use Jaulz\LaravelFactory\Tests\TestCase;
 
 class RelationsTest extends TestCase
 {

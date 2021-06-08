@@ -1,8 +1,8 @@
 <?php
 
 use Faker\Generator;
-use Makeable\LaravelFactory\FactoryBuilder;
-use Makeable\LaravelFactory\Tests\Stubs\Department;
+use Jaulz\LaravelFactory\FactoryBuilder;
+use Jaulz\LaravelFactory\Tests\Stubs\Department;
 
 $factory->define(Department::class, function (Generator $faker) {
     return ['name' => $faker->company];
