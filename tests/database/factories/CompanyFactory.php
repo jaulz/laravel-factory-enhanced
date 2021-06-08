@@ -1,9 +1,9 @@
 <?php
 
 use Faker\Generator;
-use Makeable\LaravelFactory\FactoryBuilder;
-use Makeable\LaravelFactory\Tests\Stubs\Company;
-use Makeable\LaravelFactory\Tests\Stubs\User;
+use Jaulz\LaravelFactory\FactoryBuilder;
+use Jaulz\LaravelFactory\Tests\Stubs\Company;
+use Jaulz\LaravelFactory\Tests\Stubs\User;
 
 $factory->define(Company::class, function (Generator $faker) {
     return ['name' => $faker->company];

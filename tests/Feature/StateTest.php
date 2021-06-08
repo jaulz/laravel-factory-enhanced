@@ -1,13 +1,13 @@
 <?php
 
-namespace Makeable\LaravelFactory\Tests\Feature;
+namespace Jaulz\LaravelFactory\Tests\Feature;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use InvalidArgumentException;
-use Makeable\LaravelFactory\Tests\Stubs\Company;
-use Makeable\LaravelFactory\Tests\Stubs\Customer;
-use Makeable\LaravelFactory\Tests\Stubs\User;
-use Makeable\LaravelFactory\Tests\TestCase;
+use Jaulz\LaravelFactory\Tests\Stubs\Company;
+use Jaulz\LaravelFactory\Tests\Stubs\Customer;
+use Jaulz\LaravelFactory\Tests\Stubs\User;
+use Jaulz\LaravelFactory\Tests\TestCase;
 
 class StateTest extends TestCase
 {

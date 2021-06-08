@@ -1,6 +1,6 @@
 <?php
 
-use Makeable\LaravelFactory\Factory;
+use Jaulz\LaravelFactory\Factory;
 
 if (! function_exists('factory')) {
     function factory($class, $amount = null)

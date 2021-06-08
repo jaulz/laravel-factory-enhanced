@@ -1,6 +1,6 @@
 <?php
 
-namespace Makeable\LaravelFactory\Concerns;
+namespace Jaulz\LaravelFactory\Concerns;
 
 use Closure;
 use Illuminate\Database\Eloquent\Model;
@@ -9,9 +9,9 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOneOrMany;
 use Illuminate\Database\Eloquent\Relations\MorphOneOrMany;
 use Illuminate\Database\Eloquent\Relations\Relation;
-use Makeable\LaravelFactory\Factory;
-use Makeable\LaravelFactory\FactoryBuilder;
-use Makeable\LaravelFactory\RelationRequest;
+use Jaulz\LaravelFactory\Factory;
+use Jaulz\LaravelFactory\FactoryBuilder;
+use Jaulz\LaravelFactory\RelationRequest;
 
 trait BuildsRelationships
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Makeable\LaravelFactory\Concerns;
+namespace Jaulz\LaravelFactory\Concerns;
 
 use Illuminate\Database\Eloquent\Model;
 

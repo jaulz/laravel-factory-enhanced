@@ -1,6 +1,6 @@
 <?php
 
-namespace Makeable\LaravelFactory;
+namespace Jaulz\LaravelFactory;
 
 use Faker\Generator;
 use Illuminate\Database\Eloquent\Factory as EloquentFactory;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Makeable\LaravelFactory;
+namespace Jaulz\LaravelFactory;
 
 use Closure;
-use Makeable\LaravelFactory\Concerns\NormalizesAttributes;
+use Jaulz\LaravelFactory\Concerns\NormalizesAttributes;
 
 class StateManager
 {
